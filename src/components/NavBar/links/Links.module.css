@@ -1,0 +1,42 @@
+#LinksHeader {
+    transform: translate(28%, -80px)
+}
+#link {
+    padding: 2vmin;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;  
+    font-weight: 450; 
+    font-size: 15px
+}
+
+@media(min-width: 1024px){
+    #link {
+        padding: 2vmin;
+        text-decoration: none;
+        color: black;
+        letter-spacing: 2px;  
+        font-weight: 450; 
+        font-size: 15px;
+    }
+}
+@media(max-width: 1219.20px) {
+    #link {
+        padding: 2vmin;
+        text-decoration: none;
+        color: black;
+        letter-spacing: 2px;  
+        font-weight: 450; 
+        font-size: 11.5px;
+    }
+}
+@media(max-width: 1048px) {
+    #LinksHeader {
+        transform: translate(22%, -80px)
+    }
+}
+@media(max-width: 936px) {
+    #LinksHeader {
+        transform: translate(18%, -80px)
+    }
+}

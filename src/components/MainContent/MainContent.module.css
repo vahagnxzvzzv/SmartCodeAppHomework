@@ -1,0 +1,69 @@
+#mainText {
+    overflow-x: hidden;
+    height: 500px;
+}
+
+#textItem {
+    font-weight: 400;
+    transform: translate(12%, 90%);
+
+}
+
+#paragraphIdClass {
+    transform: translate(12%, 230%);
+}
+
+#pId {
+    transform: translate(12%, 250%);
+}
+
+#MainContentStyledButton {
+    transform: translate(12%, -230px);
+}
+
+#StyledWatchBtnId {
+    transform: translate(28%, -254px);
+    transition: 0.3s;
+    padding-left: 50px;
+}
+#mainContentImage {
+    transform: translate(135%, -554px);
+    transition: 0.3s;
+}
+
+@media(max-width: 1048px) {
+    #textItem {
+        font-weight: 400;
+        transform: translate(8%, 90%);
+    
+    }
+    
+    #paragraphIdClass {
+        transform: translate(8%, 230%);
+    }
+    
+    #pId {
+        transform: translate(8%, 250%);
+    }
+    
+    #MainContentStyledButton {
+        transform: translate(8%, -230px);
+    }
+    
+    #StyledWatchBtnId {
+        transform: translate(24%, -254px);
+        transition: 0.3s;
+    }
+    #mainContentImage {
+        transform: translate(127%, -554px);
+        transition: 0.3s;
+    }
+}
+
+@media(max-width: 936px) {
+    #mainContentImage {
+        transform: translate(15%, -70px);
+        transition: 0.3s;
+    }
+    
+}

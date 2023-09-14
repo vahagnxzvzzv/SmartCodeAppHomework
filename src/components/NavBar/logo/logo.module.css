@@ -1,0 +1,30 @@
+
+
+#navbarLogo {
+    width: 18vmin;
+    height: 18vmin;
+    transform: translate(150%, 1%);
+}
+
+@media screen and (max-width: 1219.20px) {
+    #navbarLogo {
+        width: 15vmin;
+        height: 15vmin;
+        transform: translate(120%, -8px);
+    }  
+}
+@media(max-width: 1048px) {
+    #navbarLogo {
+        width: 15vmin;
+        height: 15vmin;
+        transform: translate(80%, -8px);
+    } 
+}
+@media(max-width: 936px) {
+    #navbarLogo {
+        width: 15vmin;
+        height: 15vmin;
+        transform: translate(40%, -8px);
+    } 
+}
+

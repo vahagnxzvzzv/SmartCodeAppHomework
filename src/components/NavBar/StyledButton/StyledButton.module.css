@@ -1,0 +1,43 @@
+#styledLink {
+    background-color: #f3b01b;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 100px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+#styledLink:hover {
+    transition: 0.3s;
+    color: black;
+    border: 1px #f3b01b solid;
+    background-color: white;
+
+}
+
+
+@media (max-width: 1219.20px) {
+
+    #styledLink {
+        background-color: #f3b01b;
+        text-decoration: none;
+        color: white;
+        width: 100px;
+        height: 100px;
+        padding: 12px 25px;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+    #styledLink:hover {
+        transition: 0.3s;
+        color: black;
+        border: 1px #f3b01b solid;
+        background-color: white;
+    
+    }
+}
+
+
+
+

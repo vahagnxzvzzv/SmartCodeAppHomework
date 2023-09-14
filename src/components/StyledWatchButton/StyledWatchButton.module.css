@@ -1,0 +1,9 @@
+#clip {
+    text-decoration: none;
+    color: black;
+
+}
+#clip:hover {
+    transition: 0.3s;
+    color: #f3b01b;
+}

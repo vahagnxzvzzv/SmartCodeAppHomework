@@ -1,0 +1,10 @@
+#startCourseStyledButton {
+    transform: translate(78%, -100px);
+}
+
+#NavBar {
+    @media screen and (max-width: 1024) {
+        
+    }
+    overflow-x: hidden;
+}
